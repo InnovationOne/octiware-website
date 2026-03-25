@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Octiware: Wähle deine Welt",
+    "description": "Octiware ist die Heimat von Rust to Hearth, einem Indie-Spielestudio, und Octiware PC, einem Custom-PC-Anbieter."
+  },
+  "site": {
+    "title": "OCTIWARE",
+    "tagline": "Wähle deine Welt"
+  },
+  "panels": {
+    "game": {
+      "eyebrow": "Spielestudio",
+      "title": "Rust to Hearth",
+      "description": "Ein Indie-RPG-Studio, das fesselnde Welten erschafft, handgeschriebene Geschichten erzählt und Spiele baut, die lange nachwirken.",
+      "cta": "Website betreten"
+    },
+    "pc": {
+      "eyebrow": "Custom-PC-Anbieter",
+      "title": "Octiware PC",
+      "description": "Handgefertigte Custom-PCs auf Bestellung. Direct-Die-Cooling, individuelle Wasserkühlungen und professionelles Overclocking. Gebaut von Enthusiasten, für Enthusiasten.",
+      "cta": "Website betreten"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

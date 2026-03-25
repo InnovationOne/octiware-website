@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Octiware: Choose Your Experience",
+    "description": "Octiware is home to Rust to Hearth, an indie game studio, and Octiware PC, a custom PC builder."
+  },
+  "site": {
+    "title": "OCTIWARE",
+    "tagline": "Choose your experience"
+  },
+  "panels": {
+    "game": {
+      "eyebrow": "Game Studio",
+      "title": "Rust to Hearth",
+      "description": "An indie RPG studio crafting immersive worlds, handwritten stories, and games that stick with you long after you've stopped playing.",
+      "cta": "Enter Site"
+    },
+    "pc": {
+      "eyebrow": "Custom PC Builder",
+      "title": "Octiware PC",
+      "description": "Handcrafted custom PCs built to order. Direct-die cooling, custom water loops, and expert overclocking. Built by enthusiasts, for enthusiasts.",
+      "cta": "Enter Site"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -8,6 +8,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [320, 480, 768, 1024, 1280, 1600, 1920],
+  },
 };
 
 export default withNextIntl(nextConfig);

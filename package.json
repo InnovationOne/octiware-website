@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/convert-assets.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "convert": "node scripts/convert-assets.mjs"
   },
   "dependencies": {
     "next": "14.2.5",

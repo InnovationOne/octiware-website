@@ -28,6 +28,9 @@ const config: Config = {
         },
         border: '#2a2a2a',
       },
+      screens: {
+        xs: '390px', // iPhone 14 / common small phone baseline
+      },
       fontFamily: {
         sans: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
       },

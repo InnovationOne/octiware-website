@@ -45,6 +45,8 @@ export default function BrandPanel({
       onMouseLeave={onMouseLeave}
       className="block w-full h-full relative overflow-hidden"
       style={{ textDecoration: 'none' }}
+      data-umami-event="outbound_link"
+      data-umami-event-url={href}
     >
       {/* ── Background media (scales on hover) ─────────────────────────────── */}
       <motion.div
@@ -155,6 +157,8 @@ export default function BrandPanel({
         <div className="mt-4 sm:mt-5 md:mt-6">
           <motion.span
             className="inline-flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 rounded-lg border font-semibold text-xs sm:text-sm min-h-[44px]"
+            data-umami-event="cta_click"
+            data-umami-event-label={cta}
             animate={
               isHovered
                 ? { boxShadow: glowShadow, borderColor: `${accentColor}99` }
